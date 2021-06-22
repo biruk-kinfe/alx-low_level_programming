@@ -25,8 +25,8 @@ y = y / 1000;
 while (count <= 98)
 {
 carry = (a + b) / 1000;
-c = (a + b) - carry * 1000;
-z = (x + y) + carry;
+c = (a + b) -carry * 1000;
+z = (x + y) +carry;
 x = y;
 y = z;
 a = b;
@@ -34,7 +34,7 @@ b = c;
 if (c >= 100)
 printf("%lu%lu", z, c);
 else
-printf("%lu%lu",z, c);
+printf("%lu%lu", z, c);
 if (count < 98)
 printf(", ");
 count++;

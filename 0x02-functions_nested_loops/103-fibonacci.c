@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include "holberton.h"
 /**
- * main - print sum of all even numbers 
+ * main - print sum of all even numbers
  *
  * Return: Nothing
 */
 int main(void)
 {
-unsigned long x , y, z, sum;
+unsigned long x, y, z, sum;
 z = 0;
 x = 0;
 y = 1;
@@ -16,7 +16,7 @@ while (z < 4000000)
 {
 z = x + y;
 x = y;
-y =z;
+y = z;
 if (z % 2 == 0)
 sum += z;
 }
