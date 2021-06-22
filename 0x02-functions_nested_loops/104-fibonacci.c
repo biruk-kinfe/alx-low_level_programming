@@ -34,7 +34,7 @@ b = c;
 if (c >= 100)
 printf("%lu%lu", z, c);
 else
-printf("%lu%lu", z, c);
+printf("%lu0%lu", z, c);
 if (count < 98)
 printf(", ");
 count++;
