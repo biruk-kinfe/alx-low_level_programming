@@ -7,7 +7,7 @@
 */
 int main(void)
 {
-int count:
+int count;
 unsigned long x, y, z;
 x = 0;
 y = 1;
