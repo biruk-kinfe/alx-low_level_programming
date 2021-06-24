@@ -15,6 +15,6 @@ number = number / i;
 i--;
 }
 }
-printf("%lu\n", i)
+printf("%lu\n", i);
 return (0);
 }
