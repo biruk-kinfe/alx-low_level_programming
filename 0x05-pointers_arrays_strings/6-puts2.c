@@ -21,7 +21,7 @@ for (z = 0 ; z <= l ; z++)
 {
 if (z % 2 == 0)
 {
-_putschar(str[2]);
+_putchar(str[z]);
 }
 }
 _putchar('\n');
