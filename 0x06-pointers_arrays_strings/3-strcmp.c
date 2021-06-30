@@ -1,9 +1,8 @@
 #include "holberton.h"
 /**
- * _strncmp -compare a string
- * @s1:: input
+ * _strcmp -compare a string
+ * @s1: input
  * @s2: input
- * @n: input
  *
  * Return: s1[i] - s2[i]
  */
