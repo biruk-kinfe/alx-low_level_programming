@@ -9,7 +9,6 @@ int main(void)
 {
 char s1[] = "Helllo";
 char s2[] = "World!";
-char *p;
 printf("%d\n", _strcmp(s1, s2));
 printf("%d\n", _strcmp(s2, s1));
 printf("%d\n", _strcmp(s1, s1));
