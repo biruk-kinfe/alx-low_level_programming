@@ -17,19 +17,19 @@ for (i = 0; n[i] != '\0'; i++)
 {
 switch (n[i])
 {
-case ',';
-case ';';
-case '.';
-case '!';
-case '?';
-case '"';
-case '(';
-case ')';
-case '{';
-case '}';
-case ' ';
-case '\n';
-case '\t';
+case ',':
+case ';':
+case '.':
+case '!':
+case '?':
+case '"':
+case '(':
+case ')':
+case '{':
+case '}':
+case ' ':
+case '\n':
+case '\t':
 if (n[i + 1] > 96 && n[i + 1] < 123)
 {
 n[i + 1] = n[i + 1] - 32;
