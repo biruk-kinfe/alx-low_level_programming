@@ -20,5 +20,5 @@ for (i = size - 1; i < s - 1; i += size - 1)
 {
 tr += a[i];
 }
-printf("%d, %c\n", t1, tr);
+printf("%d, %d\n", t1, tr);
 }
