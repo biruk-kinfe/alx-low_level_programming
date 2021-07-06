@@ -4,7 +4,7 @@
  *print_chessboard - fun for printing chessboard
  *@a: 2d array
  *
- *Return: nothing 
+ *Return: nothing
  */
 void print_chessboard(char (*a)[8])
 {
